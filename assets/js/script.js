@@ -1,8 +1,8 @@
-// current time added to the heading
+// current time variable added and put into the heading
 var currentDate = moment().format('dddd, MMMM Do h:mm a');
 $("#currentDay").text(currentDate);
 
-// add arrays: one for the display and one for the ID that will be added to the html
+// add arrays: one for the display and one for the ID that will be added to the html in a for loop
 var hour = ["8 AM", "9 AM", "10 AM", "11 AM", "12 PM", "1 PM", "2 PM", "3 PM", "4 PM", "5 PM"];
 var hourId = ["8", "9", "10", "11", "12", "13", "14", "15", "16", "17"];
 
